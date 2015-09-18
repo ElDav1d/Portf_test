@@ -4,5 +4,7 @@ $(document).foundation();
 
 $(document).ready(function(){
  
- $('.chocolat-parent').Chocolat();
+ $('.chocolat-parent').Chocolat({
+ 	imageSize : "cover"
+ 	});
  });
