@@ -4,6 +4,20 @@
   ========================================
 */
 
+body {
+  background: #FFFFFF;
+  color: #292929;
+  font: 400 16px/1.5em "Lato", "Opens Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+
+#title {
+	text-align: center;
+	color: #C8C8C8;
+
+
+}
+
 h1, h2, h3, h4, p {
   margin-bottom: 1.3rem;
 
