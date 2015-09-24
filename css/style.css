@@ -78,10 +78,14 @@ img.project_thumbs {
   ========================================
 */
 
-#menu > div {
+#menu > div,
+footer > div {
   text-align: center;
 }
 
-#menu > div > div > ul {
+#menu > div > div > ul,
+footer > div > div > ul{
   display: inline-block;
 }
+
+#menu > div > div > ul > li> a 
