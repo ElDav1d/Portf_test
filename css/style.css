@@ -14,7 +14,7 @@ body {
 #title {
 	text-align: center;
 	color: #C8C8C8;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.1rem;
 
 
 }
@@ -76,23 +76,25 @@ img.project_thumbs {
 
 .thumb-container {
 
-  max-height: 228px;
   text-align: center;
-  margin-bottom: 3rem;
-
 }
 
-#Portfolio > div > ul > li > div > p {
-  font-size: 0.8rem;
-  font-weight: 900;
-  margin-top: 0.5rem;
+#Portfolio > div > ul > li> div > a> p{
+  margin: 0.5rem 0 0.1rem 0;
+  color: #292929;
+  font-family: inherit;
+  font-size: 0.8rem !important;
+  font-weight: 900 !important;  
 }
 
-#Portfolio > div > ul > li > div > p > br {
-
-  font-size: 0.7rem;
-  font-weight: 400;
+#Portfolio > div > ul > li > div > div > p {
+  margin: 0;
   color: #c8c8c8;
+  font-family: inherit;
+  letter-spacing: 0.025rem;
+  font-size: 0.7rem !important;
+  font-weight: 400 !important;
+
 }
 
 /*
