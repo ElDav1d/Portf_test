@@ -73,6 +73,28 @@ img.project_thumbs {
 	display: block;
 }
 
+
+.thumb-container {
+
+  max-height: 228px;
+  text-align: center;
+  margin-bottom: 3rem;
+
+}
+
+#Portfolio > div > ul > li > div > p {
+  font-size: 0.8rem;
+  font-weight: 900;
+  margin-top: 0.5rem;
+}
+
+#Portfolio > div > ul > li > div > p > br {
+
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #c8c8c8;
+}
+
 /*
   ========================================
   nav-bar
@@ -93,7 +115,7 @@ footer > div > div > ul {
 footer > div > div > ul.button-group > li > a{
   font-family: inherit;
   font-size: 0.85rem;
-  font-weight: 100;
+  font-weight: 300;
   color: #292929;
   margin: 0 0 2rem;
   padding: 0.05rem 0.75rem 0.75rem 0.75rem;
@@ -109,7 +131,7 @@ footer > div > div > ul.button-group > li > a{
 footer > div > div > ul.button-group > li > a:hover,
 #menu > div > div > ul > li> a:focus, 
 footer > div > div > ul.button-group > li > a:focus{
-  font-weight: 100;
+  font-weight: 400;
   color: #c8c8c8;
   background-color: #fff;
   border-color: #fff;
