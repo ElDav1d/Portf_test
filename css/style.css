@@ -117,14 +117,18 @@ footer > div > div > ul.button-group > li > a{
   font-size: 0.85rem;
   font-weight: 300;
   color: #292929;
-  margin: 0 0 2rem;
   padding: 0.05rem 0.75rem 0.75rem 0.75rem;
   background-color: #fff;
   border-color: #fff;
 }
 
+
 footer > div > div > ul.button-group > li > a{
   margin: 0 0 1rem;
+}
+
+#menu > div > div > ul > li> a, {
+  margin:  0 !important;
 }
 
 #menu > div > div > ul > li> a:hover, 
@@ -135,4 +139,23 @@ footer > div > div > ul.button-group > li > a:focus{
   color: #c8c8c8;
   background-color: #fff;
   border-color: #fff;
+}
+
+/*
+  ========================================
+  social-bar
+  ========================================
+*/
+
+.social-icon {
+  max-height: 1.25rem;
+  max-width: auto;
+  display: inline-block;
+  margin: 0rem 0.2rem 1rem 0.2rem ; 
+}
+
+.social-container {
+
+  text-align: center;
+
 }
