@@ -47,6 +47,6 @@ Temporary Items
 # IMAGE FILES
 # =========================
 
-*.jpg
-*.gif
-*.png
+**/*.jpg
+**/*.gif
+**/*.png
