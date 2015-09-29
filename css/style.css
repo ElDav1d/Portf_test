@@ -52,9 +52,9 @@ p {
 
 .wildcard{
   color: #C8C8C8;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 100;
-  line-height: 1.6rem;
+  line-height: 1.1rem;
 }
 
 /*
@@ -167,4 +167,15 @@ footer > div > div > ul.button-group > li > a:focus{
 
   text-align: center;
 
+}
+
+/*
+  ========================================
+  contact
+  ========================================
+*/
+
+#map {
+  height: 25rem;
+  margin-bottom: 0.3rem;
 }
