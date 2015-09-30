@@ -30,7 +30,7 @@
           <li><a href="about.html" class="button">About</a></li>
            <li><a href="https://www.facebook.com/ElDav1d?fref=ts" class="button" target="_blank">News</a></li>
           <li><a href="index.html" class="button">Portfolio</a></li>
-          <li><a href="contact.html" class="button">Contact</a></li>
+          <li><a href="#Contact" class="button">Contact</a></li>
         </ul>
      </div>
     </div>
@@ -54,7 +54,7 @@
   </section>
 
   <section class="row">
-    <div class="large-12 columns">
+    <div class="large-12 columns" id="Contact">
       <h1>Contact</h1>
       
     </div>
@@ -74,61 +74,61 @@
         <div class="row">
           <div class="large-6 medium-6 small-12 columns">
             <label class="wildcard">Name</label>
-            <input type="text" type="text" name="Nombre" class="columns"/>
+            <input type="text" name="Nombre" class="columns"/>
           </div>
           <div class="large-6 medium-6 small-12 columns">
             <label class="wildcard">Surname</label>
-            <input type="text" type="text" name="Apellidos" class="columns"/>
+            <input type="text" name="Apellidos" class="columns"/>
           </div>
         </div>
 
         <div class="row">
           <div class="large-12 columns">
             <label class="wildcard">Company</label>
-            <input type="text" type="text" name="Empresa" class="columns"/>
+            <input type="text" name="Empresa" class="columns"/>
           </div>
         </div>
 
         <div class="row">
           <div class="large-6 medium-6 small-6 columns">
             <label class="wildcard">City</label>
-            <input type="text" type="text" name="Ciudad" class="columns"/>
+            <input type="text" name="Ciudad" class="columns"/>
           </div>
           <div class="large-6 medium-6 small-6 columns">
             <label class="wildcard">Zip code</label>
-            <input type="text" type="text" name="Codigo Postal" class="columns"/>
+            <input type="number" name="Codigo Postal" class="columns"/>
           </div>
         </div>
 
         <div class="row">
           <div class="large-12 columns">
             <label class="wildcard">Province (and/or state)</label>
-            <input type="text" type="text" name="Empresa" class="columns"/>
+            <input type="text" name="Empresa" class="columns"/>
           </div>
         </div>
 
         <div class="row">
           <div class="large-6 medium-6 small-6 columns">
             <label class="wildcard">E-mail</label>
-            <input type="text" type="text" name="Email" class="columns"/>
+            <input type="email" name="Email" class="columns"/>
           </div>
           <div class="large-6 medium-6 small-6 columns">
             <label class="wildcard">Phone</label>
-            <input type="text" type="text" name="Telefono" class="columns"/>
+            <input type="tel" name="Telefono" class="columns"/>
           </div>
         </div>
 
         <div class="row">
           <div class="large-12 columns">
             <label class="wildcard">How did you find me?</label>
-            <input type="text" type="text" name="Como me encontro" class="columns"/>
+            <input type="text" name="Como me encontro" class="columns"/>
           </div>
         </div>
 
         <div>
           <div class="large-12">
                 <label class="wildcard">Activity</label>
-                <textarea class="has-tip" title="Tira de la esquina inferior derecha para que puedas leer mejor" data-tooltip="" data-width="300"name="Actividad">Please tell me what you do or sell.</textarea>
+                <textarea class="has-tip" title="You can pull the lower right corner for better reading" data-tooltip="" data-width="300"name="Actividad">Please tell me what you do or sell.</textarea>
 
           </div>
         </div>
@@ -142,15 +142,89 @@
       <form>
 
         <div class="row">
-          <div class="large-12 columns">
-            <label class="wildcard">Product or service to work with</label>
-            <input type="text" type="text" name="Producto" class="columns"/>
+          <div class= "large-6 medium-12 small-12 columns left_column">
+            <input type="checkbox" name="servicio" value="Identidad Corporativa" id="tipo">
+            <label class="wildcard" for="Identidad Corporativa">Visual Identity</label>
+          </div>
+          <div class= "large-6 medium-12 small-12 columns right_column">
+            <input type="checkbox" name="servicio" value="Proyecto Editorial" id="tipo">
+            <label class="wildcard" for="Proyecto Editorial">Editorial Project</label>
           </div>
         </div>
+
+        <div class="row">
+          <div class= "large-6 medium-6 small-12 columns">
+            <input type="checkbox" name="servicio" value="Packaging" id="tipo">
+            <label class="wildcard" for="Packaging">Packaging</label>
+          </div>
+          <div class= "large-6 medium-6 small-12 columns">
+            <input type="checkbox" name="servicio" value="Print Design" id="tipo">
+            <label class="wildcard" for="Print Design">Print Design</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class= "large-6 medium-6 small-12 columns">
+            <input type="checkbox" name="servicio" value="Ilustración" id="tipo">
+            <label class="wildcard" for="Ilustración">Illustration</label>
+          </div>
+          <div class= "large-6 medium-6 small-12 columns">
+            <input type="checkbox" name="servicio" value="Otros" id="tipo">
+            <label class="wildcard" for="Otros">Others</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class= "large-12 medium-12 small-12 columns">
+            <input type="checkbox" name="Press" value="Press" id="tipo">
+            <label class="wildcard" for="Particular">Do you need printing services?</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="large-12 columns">
+            <label class="wildcard">Product or service to work with</label>
+            <input type="text" name="Producto" class="columns"/>
+          </div>
+        </div>
+
+        <div>
+          <div class="large-12">
+            <label class="wildcard">What we are going to do?</label>
+            <textarea class="has-tip" title="You can pull the lower right corner for better reading" data-tooltip="" data-width="300"name="Actividad">Please explain me what do you need.</textarea>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="large-6 medium-6 small-6 columns">
+            <label class="wildcard">Deadline</label>
+            <input type="date" name="Deadline" class="columns"/>
+          </div>
+        
+        </div>
+
+
+
+
       </form>
       
     </div>
   </section>
+
+   <footer class="row">
+   <div class="large-12 columns">
+     <div class="nav-bar">
+        <ul class="button-group">
+          <li><a href="about.html" class="button">About</a></li>
+           <li><a href="https://www.facebook.com/ElDav1d?fref=ts" class="button" target="_blank">News</a></li>
+          <li><a href="index.html" class="button">Portfolio</a></li>
+          <li><a href="#Contact" class="button">Contact</a></li>
+        </ul>
+     </div>
+    </div>
+
+  </footer>
+
 
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
