@@ -193,12 +193,12 @@ footer > div > div > ul.button-group > li > a:focus{
 }
 } 
 
-input {
+input[type="checkbox"] {
   vertical-align: -10%;
+  margin-bottom: 0.7rem;
 }
 
-input[type="checkbox"] + label,
-input[type="radio"] + label {
+input[type="checkbox"] + label {
   display: inline-block;
   margin-left: 0;
   margin-right: 0;
