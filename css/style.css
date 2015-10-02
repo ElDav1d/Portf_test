@@ -186,6 +186,13 @@ footer > div > div > ul.button-group > li > a:focus{
   margin-top: 1.1rem !important;
 }
 
+@media only screen and (max-width: 40em) {
+
+ .align-checkbox {
+  margin-top: 0rem !important;
+}
+} 
+
 input {
   vertical-align: -10%;
 }
