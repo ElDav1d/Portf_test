@@ -1,3 +1,66 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea, file, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  border-color: transparent;
+  outline: 0;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #292929;
+}
+
+a:hover {
+  color: #C8C8C8;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
 /*
   ========================================
   Typography
@@ -177,20 +240,28 @@ footer > div > div > ul.button-group > li > a:focus{
   ========================================
 */
 
+.left-field {
+  padding-right: 2.5%;
+}
+
+.right-field {
+  padding-left: 2.5%;
+}
+
 #map {
   height: 25rem;
   margin: 0.85rem 0 0.5rem 0;
 }
 
 .align-checkbox {
-  margin-top: -0.15rem !important;
+  margin-top: -0.12rem !important;
 }
 
 @media only screen and (max-width: 40em) {
 
  .align-checkbox {
   margin-top: 0rem !important;
-}
+  }
 } 
 
 input[type="checkbox"] {
@@ -198,9 +269,16 @@ input[type="checkbox"] {
   margin-bottom: 0.7rem;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  input[type="checkbox"] {
+  vertical-align: 1%;
+  }
+} 
+
+
 input[type="checkbox"] + label {
   display: inline-block;
-  margin-left: 0;
+  margin-left: 0.15rem;
   margin-right: 0;
   margin-bottom: 0;
   vertical-align: text-bottom; }
