@@ -1,3 +1,22 @@
+$(document).ready(function() {
+       $('.datetimepicker').datetimepicker({
+       lang:'es',
+       theme:'mycalendar',
+       i18n:{
+        es: { 
+          months: [
+          "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+          ],
+          dayOfWeek: [
+          "Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"
+            ] 
+            }
+        },
+       timepicker:false,
+       format:'d.m.Y'
+      });
+     });
+
 $(document).foundation();
 
 
@@ -8,6 +27,9 @@ $(document).ready(function(){
  	imageSize : "cover"
  	});
  });
+
+
+
 
 var map = L.map('map').setView([39.464741, -0.375517],15);
 
