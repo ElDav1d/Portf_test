@@ -54,9 +54,9 @@ p {
 
 .wildcard{
   color: #C8C8C8;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 100;
-  line-height: 1.1rem;
+  line-height: 1.2rem;
 }
 
 /*
@@ -179,11 +179,11 @@ footer > div > div > ul.button-group > li > a:focus{
 
 #map {
   height: 25rem;
-  margin: 1.55rem 0 0.3rem 0;
+  margin: 0.85rem 0 0.5rem 0;
 }
 
 .align-checkbox {
-  margin-top: 1.1rem !important;
+  margin-top: -0.15rem !important;
 }
 
 @media only screen and (max-width: 40em) {
@@ -204,3 +204,25 @@ input[type="radio"] + label {
   margin-right: 0;
   margin-bottom: 0;
   vertical-align: text-bottom; }
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+-webkit-appearance: none;
+border-radius: 0;
+background-color: #C8C8C8;
+font-family: inherit;
+border-style: none;
+border-width: 1px;
+border-color: #cccccc;
+box-shadow: none;
+color: #292929;
+display: block;
+font-size: 0.85rem;
+margin: 0 0 0.3rem 0;
+padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+height: 1.5rem;
+width: 100%;
+line-height: 1.2rem; }
+
+label {
+  margin-bottom: 0.3rem;
+}
