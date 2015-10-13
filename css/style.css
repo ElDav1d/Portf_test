@@ -425,7 +425,13 @@ label {
   background: #999 !important;
 }
 
-/*button .my_dropdown*/
+/*
+  ========================================
+  button .my_dropdown
+  ========================================
+*/
+
+
 
 div.dropdown {
   padding: 0rem 0.5rem 0rem 0rem;
@@ -437,7 +443,7 @@ span.dropdown-text:hover {
   background: #c8c8c8;
 }
 
-.dropdown, .dropdown-toggle{
+.dropdown, .dropdown-toggle, .dropdown-menu {
   margin-top: 0;
   font-weight: 100;
   font-size: 0.85rem;
@@ -487,7 +493,7 @@ span.dropdown-text:hover {
   -moz-box-shadow: none;
   box-shadow: none;
   padding: 0;
-  weight:;
+  width: 100%;
 
 }
 
