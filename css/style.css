@@ -423,15 +423,25 @@ label {
 
 /*button .my_dropdown*/
 
-.dropdown .dropdown-toggle{
+div.dropdown {
+  padding: 0rem 0.5rem 0rem 0rem;
+  background-color: #C8C8C8;
+}
+
+span.dropdown-text:hover {
+
+  background: #c8c8c8;
+}
+
+.dropdown, .dropdown-toggle{
   margin-top: 0;
-  padding: 0.2rem 0.5rem 0.3rem 0.5rem;
   font-weight: 100;
   font-size: 0.9rem;
-  height: 1.5rem;
+  text-align: left !important;
+  width: 100% !important;
   color: #292929;
   line-height: 1.2rem; }
-}
+
 
 .dropdown-title {
   font-weight: bold;
@@ -446,6 +456,7 @@ label {
 }
 
 .dropdown-toggle {
+  padding: 0.2rem 0.5rem 0.3rem 0.5rem;
   cursor: default;
   color: #fff ;
   -webkit-box-sizing: border-box;
@@ -461,9 +472,7 @@ label {
   text-align: center;
 }
 
-.dropdown-selected {
 
-}
 
 .dropdown-menu-wrapper {
   background: #c8c8c8;
@@ -500,4 +509,8 @@ label {
   display: block;
   width: 100%;
 
+}
+
+.dropdown-text {
+  padding-ledft:1rem !important;
 }
