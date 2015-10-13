@@ -1,11 +1,16 @@
 interchange en index	 OK
 error messages (abide)
-datetimepicker conviviendo con chocolat
-dropdown en "Cómo me encontró?"
+datetimepicker conviviendo con chocolat OK
+dropdown en "Cómo me encontró?" 
+
+
+dropdown en "Cómo me encontró?" OFF CANVAS
+
 responsive footer en contact
 vincular contact a spreadsheet
 parallax animation	OK
 favicon
+responsive logo
 
 SUBMIT ARCHIVES?
 PROGRESS BAR en submit?
