@@ -1,0 +1,14 @@
+interchange en index
+error messages (abide)
+datetimepicker conviviendo con chocolat
+dropdown en "Cómo me encontró?"
+responsive footer en contact
+vincular contact a spreadsheet
+
+SUBMIT ARCHIVES?
+PROGRESS BAR en submit?
+
+
+version castellano
+
+filtros para portfolio

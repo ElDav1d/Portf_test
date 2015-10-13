@@ -1,257 +1,367 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
+
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>ElDavid | Graphic Design</title>
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900,300italic,400italic,900italic' rel='stylesheet' type='text/css'/>
+
+		<link rel="stylesheet" href="css/foundation.css"/>
+		<link rel="stylesheet" href="Chocolat-0.4.10/src/css/chocolat.css"/>
+		<link rel="stylesheet" href="css/leaflet.css"/>
+		
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
 
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ElDavid | Graphic Design</title>
+	<body>
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900,300italic,400italic,900italic' rel='stylesheet' type='text/css'/>
+		<header>
+			
+			<div id="title" class="row">
+				<div class="large-12 columns">
+				  <img class="project_thumbs" src="img/ElDavid_logo1.gif" alt="ElDavid logo">
+				  <p>GRAPHIC DESIGN</p>
+				</div>
+			</div>
 
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="Chocolat-0.4.10/src/css/chocolat.css"/>
-    <link rel="stylesheet" href="css/leaflet.css" />
-    
-    <link rel="stylesheet" href="css/style.css" />
-    
-  </head>
+			<div id="menu" class="row">
+				<div class="large-12 columns ">
+					<div class="nav-bar">
+						
+						<ul class="button-group">
+						  <li><a href="about.html" class="button">About</a></li>
+						   <li><a href="https://www.facebook.com/ElDav1d?fref=ts" class="button" target="_blank">News</a></li>
+						  <li><a href="index.html" class="button">Portfolio</a></li>
+						  <li><a href="#Contact" class="button">Contact</a></li>
+						</ul>
+					
+					</div>
+				</div>
+			</div>
 
-  <body>
-    <!--   header -->
+			<div class="row">
+				<div class="large-2 columns large-centered">
+					<div class="nav-bar social-container">
+						<a href="https://www.facebook.com/ElDav1d?fref=ts" target="_blank">
+						<img class="social-icon" src="img/webicon-facebook.svg" alt="Facebook logo">
+						</a>
+						<a href="https://www.behance.net/DavidVivo" target="_blank">
+						<img class="social-icon" src="img/webicon-behance.svg" alt="Behance logo">
+						</a>
+						<a href="https://www.flickr.com/photos/erre4" target="_blank">
+						<img class="social-icon" src="img/webicon-flickr.svg" alt="Flickr logo">
+						</a>
+					</div>
+				</div>
+			</div>
 
-    <section id="title" class="row">
+		</header>
 
-      <div class="large-12 columns">
-        <img class="project_thumbs" src="img/ElDavid_logo1.gif" alt="ElDavid logo">
-        <p>GRAPHIC DESIGN</p>
-      </div>
+		<div class="row">
+		  <div class="large-12 columns" id="Contact">
+		    <h1>Contact</h1>
+		    
+		  </div>
+		</div>
 
-    </section>
+		<section class="row">
 
-    <section id="menu" class="row">
-     <div class="large-12 columns ">
-       <div class="nav-bar">
-          <ul class="button-group">
-            <li><a href="about.html" class="button">About</a></li>
-             <li><a href="https://www.facebook.com/ElDav1d?fref=ts" class="button" target="_blank">News</a></li>
-            <li><a href="index.html" class="button">Portfolio</a></li>
-            <li><a href="#Contact" class="button">Contact</a></li>
-          </ul>
-       </div>
-      </div>
-    </section>
+			<div class="large-4 medium-12 small-12 columns">
 
-    <section class="row">
+				<h2>I'm here</h2>
 
-      <div class="large-2 columns large-centered">
-        <div class="nav-bar social-container">
-          <a href="https://www.facebook.com/ElDav1d?fref=ts" target="_blank">
-          <img class="social-icon" src="img/webicon-facebook.svg" alt="Facebook logo">
-          </a>
-          <a href="https://www.behance.net/DavidVivo" target="_blank">
-          <img class="social-icon" src="img/webicon-behance.svg" alt="Behance logo">
-          </a>
-          <a href="https://www.flickr.com/photos/erre4" target="_blank">
-          <img class="social-icon" src="img/webicon-flickr.svg" alt="Flickr logo">
-          </a>
-        </div>
-      </div>
-    </section>
+				<div id="map"></div>
 
-    <section class="row">
-      <div class="large-12 columns" id="Contact">
-        <h1>Contact</h1>
-        
-      </div>
-    </section>
+				<p class="wildcard"> Calle Castellón, 21/3 <br> Valencia, 46004 <br> +34 626 807 125 <br> dvivoes@yahoo.es <br> SPAIN </p>
 
-    <section class="row">
+			</div>
 
-      <div class="large-4 medium-12 small-12 columns">
-        <h2>I'm here</h2>
-        <div id="map"></div>
-        <p class="wildcard"> Calle Castellón, 21/3 <br> Valencia, 46004 <br> +34 626 807 125 <br> dvivoes@yahoo.es <br> SPAIN </p>
-      </div>
+			<div class="large-4 medium-6 small-12 columns">
 
-      <div class="large-4 medium-6 small-12 columns">
+				<h2>Who are you?</h2>
 
-        <h2>Who are you?</h2>
-        <form>
+				<form>
 
-          <div class="row">
-            <div class="large-6 medium-6 small-12 columns left-field">
-              <label class="wildcard" for="Nombre">Name</label>
-              <input type="text" name="Nombre"/>
-            </div>
-            <div class="large-6 medium-6 small-12 columns right-field">
-              <label class="wildcard" for="Apellidos">Surname</label>
-              <input type="text" name="Apellidos"/>
-            </div>
-          </div>
+					<div class="row">
 
-          <div class="row">
-            <div class="large-12 columns">
-              <label class="wildcard" for="Empresa">Company</label>
-              <input type="text" name="Empresa"/>
-            </div>
-          </div>
+						<div class="large-6 medium-6 small-12 columns left-field">
+							<label class="wildcard" for="Nombre">
+								Name
+							</label>
+							<input type="text" name="Nombre" id="Nombre"/>
+						</div>
 
-          <div class="row">
-            <div class="large-6 medium-6 small-6 columns left-field">
-              <label class="wildcard" for="Ciudad">City</label>
-              <input type="text" name="Ciudad"/>
-            </div>
-            <div class="large-6 medium-6 small-6 columns right-field">
-              <label class="wildcard" for="CodigoPostal">Zip code</label>
-              <input type="text" name="CodigoPostal"/>
-            </div>
-          </div>
+						<div class="large-6 medium-6 small-12 columns right-field">
+							<label class="wildcard" for="Apellidos">
+								Surname
+							</label>
+							<input type="text" name="Apellidos" id="Apellidos"/>
+						</div>
 
-          <div class="row">
-            <div class="large-12 columns">
-              <label class="wildcard" for="ProvinciaEstado">Province (and/or state)</label>
-              <input type="text" name="ProvinciaEstado"/>
-            </div>
-          </div>
+					</div>
 
-          <div class="row">
-            <div class="large-6 medium-6 small-6 columns left-field">
-              <label class="wildcard" for="Email">E-mail</label>
-              <input type="email" name="Email" placeholder="name@domain.com"/>
-            </div>
-            <div class="large-6 medium-6 small-6 columns right-field">
-              <label class="wildcard" for="Telefono">Phone</label>
-              <input type="tel" name="Telefono"/>
-            </div>
-          </div>
+					<div class="row">
 
-          <div class="row">
-            <div class="large-12 columns">
-              <label class="wildcard" for="ComoMeEncontro">How did you find me?</label>
-              <input type="text" name="ComoMeEncontro"/>
-            </div>
-          </div>
+						<div class="large-12 columns">
+							<label class="wildcard" for="Empresa">
+								Company
+							</label>
+							<input type="text" name="Empresa" id="Empresa"/>
+						</div>
 
-          <div class="row">
-            <div class="large-12 columns">
-              <label class="wildcard" for="Actividad">Activity</label>
-              <textarea name="Actividad">Please tell me what you do or sell.</textarea>
+					</div>
 
-            </div>
-          </div>
+					<div class="row">
 
-        </form>
+						<div class="large-6 medium-6 small-6 columns left-field">
+							<label class="wildcard" for="Ciudad">
+								City
+							</label>
+							<input type="text" name="Ciudad" id="Ciudad"/>
+						</div>
 
-      </div>
-        
-      
+						<div class="large-6 medium-6 small-6 columns right-field">
+							<label class="wildcard" for="CodigoPostal">
+								Zip code
+							</label>
+							<input type="text" name="CodigoPostal" id="CodigoPostal"/>
+						</div>
 
-      <div class="large-4 medium-6 small-12 columns">
-        <h2>What do you need?</h2>
-        <form>
+					</div>
 
-          <div class="row align-checkbox">
-            <div class= "large-6 medium-6 small-12 columns">
-              <input type="checkbox" name="servicio" value="IdentidadCorporativa">
-              <label class="wildcard" for="IdentidadCorporativa">Visual Identity</label>
-            </div>
-            <div class= "large-6 medium-6 small-12 columns">
-              <input type="checkbox" name="servicio" value="ProyectoEditorial" id="tipo">
-              <label class="wildcard" for="ProyectoEditorial">Editorial Project</label>
-            </div>
-          </div>
+					<div class="row">
 
-          <div class="row">
-            <div class= "large-6 medium-6 small-12 columns">
-              <input type="checkbox" name="servicio" value="Packaging">
-              <label class="wildcard" for="Packaging">Packaging</label>
-            </div>
-            <div class= "large-6 medium-6 small-12 columns">
-              <input type="checkbox" name="servicio" value="PrintDesign">
-              <label class="wildcard" for="PrintDesign">Print Design</label>
-            </div>
-          </div>
+						<div class="large-12 columns">
+							<label  class="wildcard" for="ProvinciaEstado">
+								Province (and/or state)
+								<input type="text" name="ProvinciaEstado" id="ProvinciaEstado"/>
+							</label>
+						</div>
 
-          <div class="row">
-            <div class= "large-6 medium-6 small-12 columns">
-              <input type="checkbox" name="servicio" value="Ilustracion">
-              <label class="wildcard" for="Ilustracion">Illustration</label>
-            </div>
-            <div class= "large-6 medium-6 small-12 columns">
-              <input type="checkbox" name="servicio" value="Otros">
-              <label class="wildcard" for="Otros">Others</label>
-            </div>
-          </div>
+					</div>
 
-          <div class="row">
-            <div class= "large-12 medium-12 small-12 columns">
-              <input type="checkbox" name="servicio" value="Press">
-              <label class="wildcard" for="Press">Do you need printing services?</label>
-            </div>
-          </div>
+					<div class="row">
 
-          <div class="row">
-            <div class="large-12 columns">
-              <label class="wildcard" for="Producto">Product or service to work with</label>
-              <input type="text" name="Producto"/> 
-               
-            </div>
-          </div>
+						<div class="large-6 medium-6 small-6 columns left-field">
+							<label class="wildcard" for="Email">
+								E-mail
+							</label>
+							<input type="email" name="Email" id="Email" placeholder="name@domain.com"/>
+						</div>
 
-          <div class="row">
-            <div class="large-12 columns">
-              <label class="wildcard" for="Necesidades">What we are going to do?</label>
-              <textarea name="Necesidades">Please explain me what do you need.</textarea>
-            </div>
-          </div>
+						<div class="large-6 medium-6 small-6 columns right-field">
+							<label class="wildcard" for="Telefono">
+								Phone
+							</label>
+							<input type="tel" name="Telefono" id="Telefono"/>
+						</div>
+
+					</div>
+
+					<div class="row">
+
+						<div class="large-12 columns">
+							<label class="wildcard" for="ComoMeEncontro">
+								How did you find me?
+							</label>
+							<input type="text" name="ComoMeEncontro" id="ComoMeEncontro"/>
+						</div>
+
+					</div>
+
+					<div class="row">
+
+						<div class="large-12 columns">
+							<label class="wildcard" for="Actividad">
+								Activity
+							</label>
+							<textarea  name="Actividad" id="Actividad">Please tell me what you do or sell.</textarea>
+						</div>
+
+					</div>
+
+				</form>
+
+			</div>
+
+			<div class="large-4 medium-6 small-12 columns">
+
+				<h2>What do you need?</h2>
+
+				<form>
+
+					<div class="row align-checkbox">
+
+						<div class= "large-6 medium-6 small-12 columns">
+
+							<input type="checkbox" name="Servicio1" value="IdentidadCorporativa" id="Servicio1"/>
+
+							<label class="wildcard" for="Servicio1" >
+								Visual Identity
+							</label>
+
+						</div>
+
+						<div class= "large-6 medium-6 small-12 columns">
+
+							<input type="checkbox" name="Servicio2" value="ProyectoEditorial" id="Servicio2"/>
+
+							<label class="wildcard" for="Servicio2">
+								Editorial Project
+							</label>
+
+						</div>
+					</div>
+
+					<div class="row">
+
+						<div class= "large-6 medium-6 small-12 columns">
+
+							<input type="checkbox" name="Servicio3" value="Packaging" id="Servicio3"/>
+
+							<label class="wildcard" for="Servicio3">
+								Packaging
+							</label>
+
+						</div>
+
+						<div class= "large-6 medium-6 small-12 columns">
+
+						  <input type="checkbox" name="Servicio4" value="PrintDesign" id="Servicio4"/>
+
+						  <label class="wildcard" for="Servicio4">
+						  	Print Design
+						  </label>
+						</div>
+
+					</div>
+
+					<div class="row">
+
+					  <div class="large-6 medium-6 small-12 columns">
+
+					    <input type="checkbox" name="Servicio5" value="Ilustracion" id="Servicio5"/>
+
+					    <label class="wildcard" for="Servicio5">
+					    	Illustration
+					    </label>
+
+					  </div>
+
+					  <div class="large-6 medium-6 small-12 columns">
+
+					    <input type="checkbox" name="Servicio6" value="Otros" id="Servicio6"/>
+
+					    <label class="wildcard" for="Servicio6">Others</label>
+
+					  </div>
+
+					</div>
+
+					<div class="row">
+
+						<div class="large-12 columns">
+
+							<input type="checkbox" name="Servicio7" value="Print" id="Servicio7">
+							
+							<label class="wildcard" for="Servicio7">
+								Do you need printing services?
+							</label>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+
+						<div class="large-12 columns">
+
+							<label class="wildcard" for="Producto">
+								Product or service to work with
+							</label>
+
+							<input type="text" name="Producto" id="Producto"/>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						
+						<div class="large-12 columns">
+
+							<label class="wildcard" for="Needs">
+								What we are going to do?
+							</label>
+
+							<textarea name="Needs" id="Needs">Please explain me what do you need.</textarea>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						
+						<div class="large-6 medium-6 small-6 columns">
+
+						<label class="wildcard" for="Deadline">
+							Deadline
+						</label>
+
+						<input type="date" name="Deadline" id="Deadline"/>
+
+						</div>
+					</div>
 
 
+				</form>
+			</div>
+
+		</section>
+
+		<footer class="row">
+
+			<div class="large-12 columns">
+				
+				<div class="nav-bar">
+					
+					<ul class="button-group">
+
+						<li>
+							<a href="about.html" class="button">About</a>
+						</li>
+
+						 <li>
+						 	<a href="https://www.facebook.com/ElDav1d?fref=ts" class="button" target="_blank">News</a>
+						 </li>
+
+						<li>
+							<a href="index.html" class="button">Portfolio</a>
+						</li>
+
+						<li>
+							<a href="#Contact" class="button">Contact</a></li>
+
+					</ul>
+
+				</div>
 
 
+			</div>
 
-          <div class="row">
-            <div class="large-6 medium-6 small-6 columns">
-              <label class="wildcard" for="Deadline">Deadline</label>
-              <input type="date" name="Deadline"/>
-              
-            </div>
-          
-          </div>
+		</footer>
 
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/foundation.min.js"></script>
+		<script src="js/vendor/modernizr.js"></script>
+		<script src="js/vendor/fastclick.js"></script>
+		<script src="js/leaflet.js"></script>
+		<script src="Chocolat-0.4.10/src/js/jquery.chocolat.js"></script>
 
+		<script src="js/main.js"></script>
 
-
-        </form>
-        
-      </div>
-
-    </section>
-
-    <footer class="row">
-     <div class="large-12 columns">
-       <div class="nav-bar">
-          <ul class="button-group">
-            <li><a href="about.html" class="button">About</a></li>
-             <li><a href="https://www.facebook.com/ElDav1d?fref=ts" class="button" target="_blank">News</a></li>
-            <li><a href="index.html" class="button">Portfolio</a></li>
-            <li><a href="#Contact" class="button">Contact</a></li>
-          </ul>
-       </div>
-      </div>
-
-    </footer>
-
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/vendor/modernizr.js"></script>
-    <script src="js/vendor/fastclick.js"></script>
-    <script src="js/leaflet.js"></script>
-    <script src="Chocolat-0.4.10/src/js/jquery.chocolat.js"></script>
-
-    <script src="js/main.js"></script>
-
-
-  </body>
+	</body>
 </html>
