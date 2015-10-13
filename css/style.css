@@ -418,3 +418,74 @@ label {
 .xdsoft_mycalendar .xdsoft_scrollbar >.xdsoft_scroller {
   background: #999 !important;
 }
+
+/*button .my_dropdown*/
+
+.dropdown .dropdown-toggle{
+  margin-top: 0;
+  padding: 0.2rem 0.5rem 0.3rem 0.5rem;
+  font-weight: 100;
+  font-size: 0.9rem;
+  height: 1.5rem;
+  color: #292929;
+  line-height: 1.2rem; }
+}
+
+.dropdown-title {
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  min-height: 20px;
+  padding: 5px 45px 10px;
+  margin: 0 0 5px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.dropdown-toggle {
+  cursor: default;
+  color: #fff ;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #c8c8c8;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  border-radius: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  text-align: center;
+}
+
+.dropdown-selected {
+
+}
+
+.dropdown-menu-wrapper {
+  background: #c8c8c8;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  border-radius: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+  weight:;
+
+}
+
+.dropdown-link {
+  background: none;
+  color: #292929;
+  font-weight: 100;
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  padding: 0.2rem 0.5rem 0.3rem 0.5rem;
+}
+
+.dropdown-above .dropdown-menu-wrapper {
+  margin: 0;
+}

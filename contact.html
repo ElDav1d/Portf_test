@@ -12,6 +12,8 @@
 	  <link rel="stylesheet" href="Chocolat-0.4.10/src/css/chocolat.css"/>
 	  <link rel="stylesheet" href="css/leaflet.css"/>
 	  <link rel="stylesheet" href="css/jquery.datetimepicker.css"/>
+	  <link rel="stylesheet" href="css/dropdown.min.css"/>
+
 	  
 	  <link rel="stylesheet" href="css/style.css"/>
 
@@ -169,10 +171,21 @@
 					<div class="row">
 
 						<div class="large-12 columns">
+							
 							<label class="wildcard" for="ComoMeEncontro">
 								How did you find me?
 							</label>
-							<input type="text" name="ComoMeEncontro" id="ComoMeEncontro"/>
+
+							<select class="my_dropdown large-6 columns left_column">
+								<option class="textarea">Conozco tu trabajo</option>
+							  <option class="textarea">Curioseando en Behance</option>
+							  <option class="textarea">Buscando en Google</option>
+							  <option class="textarea">En las redes sociales</option>
+							  <option class="textarea">Por un amigo</option>
+							  <select>
+							  	
+							<!-- <input type="text" name="ComoMeEncontro" id="ComoMeEncontro"/> -->
+
 						</div>
 
 					</div>
@@ -363,6 +376,7 @@
 		<script src="js/foundation.min.js"></script>
 		<script src="js/vendor/fastclick.js"></script>
 		<script src="js/leaflet.js"></script>
+		<script src="js/jquery.dropdown.min.js"></script>
 		<script src="js/jquery.datetimepicker.full.min.js"></script>
 
 
