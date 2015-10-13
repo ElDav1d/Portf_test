@@ -246,6 +246,7 @@ footer > div > div > ul.button-group > li > a:focus{
   ========================================
 */
 
+@media only screen and (min-width: 639px) {
 .left-field {
   padding-right: 2.5%;
 }
@@ -253,6 +254,8 @@ footer > div > div > ul.button-group > li > a:focus{
 .right-field {
   padding-left: 2.5%;
 }
+}
+
 
 #map {
   height: 24.1rem;
@@ -301,6 +304,7 @@ box-shadow: none;
 color: #292929;
 display: block;
 font-size: 0.85rem;
+font-weight: 100;
 margin: 0 0 0.3rem 0;
 padding: 0.3rem 0.5rem 0.3rem 0.5rem;
 height: 1.5rem;
@@ -436,7 +440,7 @@ span.dropdown-text:hover {
 .dropdown, .dropdown-toggle{
   margin-top: 0;
   font-weight: 100;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   text-align: left !important;
   width: 100% !important;
   color: #292929;
@@ -447,7 +451,7 @@ span.dropdown-text:hover {
   font-weight: bold;
   position: relative;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   line-height: 1.2rem;
   min-height: 20px;
   padding: 5px 45px 10px;
@@ -492,7 +496,7 @@ span.dropdown-text:hover {
   color: #292929;
   font-weight: 100;
   display: block;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   line-height: 1.2rem;
   padding: 0.2rem 0.5rem 0.3rem 0.5rem;
 }
@@ -509,8 +513,4 @@ span.dropdown-text:hover {
   display: block;
   width: 100%;
 
-}
-
-.dropdown-text {
-  padding-ledft:1rem !important;
 }
