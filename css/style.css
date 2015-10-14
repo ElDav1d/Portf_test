@@ -438,7 +438,8 @@ div.dropdown {
   background-color: #C8C8C8;
 }
 
-span.dropdown-text:hover {
+span.dropdown-text:hover, 
+a.dropdown-toggle:hover{
 
   background: #c8c8c8;
 }
