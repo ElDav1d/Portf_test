@@ -298,7 +298,7 @@ input[type="checkbox"] + label {
   margin-bottom: 0;
   vertical-align: text-bottom; }
 
-input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea, #submit.button {
 -webkit-appearance: none;
 border-radius: 0;
 background-color: #C8C8C8;
@@ -319,8 +319,12 @@ line-height: 1.2rem; }
 
 label {
   margin-bottom: 0.3rem;
-}
+} 
 
+
+#submit.button {
+
+}
 
 /*
   ========================================
