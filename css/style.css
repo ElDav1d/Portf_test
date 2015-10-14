@@ -323,7 +323,10 @@ label {
 
 
 #submit.button {
-
+  background-color: #428BCA;
+  color: #fff;
+  line-height: 0.8rem;
+  vertical-align: bottom;
 }
 
 /*
