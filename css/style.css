@@ -221,6 +221,12 @@ footer > div > div > ul.button-group > li > a:focus{
   border-color: #fff;
 }
 
+@media screen and (min-height: 900px) {
+  #form_foot{
+    display:none !important;
+  }
+}
+
 /*
   ========================================
   social-bar
