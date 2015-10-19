@@ -241,9 +241,11 @@ footer > div > div > ul.button-group > li > a:focus{
 }
 
 .social-container {
-
   text-align: center;
+}
 
+.first.social-container {
+  margin-bottom: 1rem;
 }
 
 /*
