@@ -24,7 +24,7 @@ version castellano
 
 filtros para portfolio
 
-más MARGIN-BOTTOM  a social links
+más MARGIN-BOTTOM  a social links OK
 
 ALINEAR CAJAS AL TERMINAR FORMULARIO (CON TEXTFIELD)
 

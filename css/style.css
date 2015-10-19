@@ -328,7 +328,9 @@ label {
   background-color: #428BCA;
   color: #fff;
   line-height: 0.8rem;
-  vertical-align: bottom;
+  display: block;
+  position:absolute;
+  bottom: -3rem;
 }
 
 /*
