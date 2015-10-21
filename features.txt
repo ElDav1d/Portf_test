@@ -8,7 +8,7 @@ dropdown en "Cómo me encontró?"
 dropdown en "Cómo me encontró?" VALIDATE 
 dropdown en "Cómo me encontró?" OFF CANVAS
 
-submit button
+submit button	OK
 
 responsive footer en contact OK
 vincular contact a spreadsheet

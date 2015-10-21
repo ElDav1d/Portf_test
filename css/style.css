@@ -465,9 +465,10 @@ div.dropdown {
 }
 
 span.dropdown-text:hover, 
-a.dropdown-toggle:hover{
+a.dropdown-toggle:hover,
+body > section > div:nth-child(2) > form > div:nth-child(6) > div > div > a{
 
-  background: #c8c8c8;
+  background: #c8c8c8  !important;
 }
 
 .dropdown, .dropdown-toggle, .dropdown-menu {
@@ -512,6 +513,8 @@ a.dropdown-toggle:hover{
 
 
 .dropdown-menu-wrapper {
+
+
   background: #c8c8c8;
   -webkit-border-radius: none;
   -moz-border-radius: none;
@@ -534,14 +537,20 @@ a.dropdown-toggle:hover{
   padding: 0.2rem 0.5rem 0.3rem 0.5rem;
 }
 
-.dropdown-above .dropdown-menu-wrapper {
-  margin: 0;
+.dropdown-above .dropdown-menu-wrapper
+{
+  margin-bottom: 0;
+}
+
+.dropdown-below .dropdown-menu-wrapper{
+ margin:0;
+
 }
 
 .drop-tion {
   background: #C8C8C8;
   padding: 0px;
-  line-height: 1em;
+  line-height: 1em;m
   text-align: top;
   display: block;
   width: 100%;
