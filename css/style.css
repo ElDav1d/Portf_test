@@ -481,17 +481,7 @@ body > section > div:nth-child(2) > form > div:nth-child(6) > div > div > a{
   line-height: 1.2rem; }
 
 
-.dropdown-title {
-  font-weight: bold;
-  position: relative;
-  text-align: center;
-  font-size: 0.85rem;
-  line-height: 1.2rem;
-  min-height: 20px;
-  padding: 5px 45px 10px;
-  margin: 0 0 5px;
-  border-bottom: 1px solid #e5e5e5;
-}
+
 
 .dropdown-toggle {
   padding: 0.2rem 0.5rem 0.3rem 0.5rem;
@@ -565,4 +555,41 @@ body > section > div:nth-child(2) > form > div:nth-child(6) > div > div > a{
  {
   bottom:auto;
  }
+
+.dropdown-menu-wrapper {
+
+    left: 15px;
+    right: 15px;
 }
+}
+
+.dropdown-back, .dropdown-close {
+
+  text-decoration: none;
+  top: -5px;
+  padding: 15px;
+  background: #c8c8c8 none repeat scroll 0% 0%;
+
+}
+
+.dropdown-header {
+
+  text-align: left !important;
+  font-weight: 400;
+  padding: 0px;
+  margin:0px;
+  border-bottom: none;
+}
+
+.dropdown-title {
+  font-weight: 400;
+  position: relative;
+  text-align: left;
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+  min-height: 20px;º
+  padding: 0.2rem 0.5rem 0.3rem;
+  margin: 0 0 5px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
