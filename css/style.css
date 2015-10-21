@@ -328,10 +328,19 @@ label {
   background-color: #428BCA;
   color: #fff;
   line-height: 0.8rem;
-  display: block;
-  position:absolute;
-  bottom: -3rem;
+
+  
 }
+
+.align_bottom {
+
+  display: block ;
+  bottom: -24px;
+}
+
+
+
+
 
 /*
   ========================================
