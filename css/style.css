@@ -556,3 +556,13 @@ body > section > div:nth-child(2) > form > div:nth-child(6) > div > div > a{
   width: 100%;
 
 }
+
+@media all and (max-width: 600px) {
+
+.dropdown-above .dropdown-menu-wrapper,
+.dropdown-below .dropdown-menu-wrapper
+
+ {
+  bottom:auto;
+ }
+}
