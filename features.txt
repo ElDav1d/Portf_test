@@ -4,9 +4,10 @@ error messages (abide)
 datetimepicker conviviendo con chocolat OK
 
 
-dropdown en "Cómo me encontró?"
-dropdown en "Cómo me encontró?" VALIDATE 
-dropdown en "Cómo me encontró?" OFF CANVAS
+dropdown en "Cómo me encontró?" CONTENT
+dropdown en "Cómo me encontró?" MARKUP
+dropdown en "Cómo me encontró?" STYLE OK
+dropdown en "Cómo me encontró?" OFF CANVAS STYLE
 
 submit button	OK
 
@@ -28,4 +29,7 @@ más MARGIN-BOTTOM  a social links OK
 
 ALINEAR CAJAS AL TERMINAR FORMULARIO (CON TEXTFIELD)
 
+Formulario VALIDATE MARKUP
+
 DISCLAIMER?
+
