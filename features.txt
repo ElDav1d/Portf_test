@@ -2,12 +2,13 @@ interchange en index
 
 error messages (abide)
 datetimepicker conviviendo con chocolat OK
+datetimepicker ANIMADO
 
 
-dropdown en "Cómo me encontró?" CONTENT
-dropdown en "Cómo me encontró?" MARKUP
+dropdown en "Cómo me encontró?" CONTENT OK
+dropdown en "Cómo me encontró?" MARKUP	OK
 dropdown en "Cómo me encontró?" STYLE OK
-dropdown en "Cómo me encontró?" OFF CANVAS STYLE
+dropdown en "Cómo me encontró?" OFF CANVAS STYLE OK
 
 submit button	OK
 
