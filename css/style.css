@@ -675,18 +675,19 @@ z-index: 2;
   font-weight: 100;
 
   z-index: 3;
-}*/
+}
 
 .file-upload {
   position: relative;
   overflow: hidden;
  }
 
+
 .file-upload input.file-input {
   position: absolute;
-  
-
-
   cursor: pointer;
   opacity: 0;
   filter: alpha(opacity=0); }
+
+  */
+  
