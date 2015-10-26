@@ -169,6 +169,24 @@ img.project_thumbs {
 
 }
 
+#Portfolio > div > ul > li > div > div > a, 
+.thumb-tag {
+  margin: 0;
+  color: #c8c8c8;
+  font-family: inherit;
+  letter-spacing: 0.025rem;
+  font-size: 0.7rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5em;
+
+}
+
+#Portfolio > div > ul > li > div > div > a:hover{
+
+  color: #292929;
+}
+
+
 /*
   ========================================
   nav-bar
@@ -690,4 +708,3 @@ z-index: 2;
   filter: alpha(opacity=0); }
 
   */
-  
