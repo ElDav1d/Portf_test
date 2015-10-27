@@ -30,9 +30,9 @@ PROGRESS BAR en submit?
 
 version castellano
 
-filtros para portfolio	CREAR
-
-filtros para portfolio	MARKUP
+filtros para portfolio	CREAR	OK
+	
+filtros para portfolio	MARKUP	OK
 
 filtros para portfolio	LINKS
 
