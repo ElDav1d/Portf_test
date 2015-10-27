@@ -12,9 +12,15 @@ dropdown en "Cómo me encontró?" OFF CANVAS STYLE OK
 
 submit button	OK
 
+
+responsive footer en FILTERS OK
+
 responsive footer en contact OK
+
 vincular contact a spreadsheet
+
 parallax animation	OK
+
 favicon
 
 
