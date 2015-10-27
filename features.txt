@@ -13,7 +13,7 @@ dropdown en "Cómo me encontró?" OFF CANVAS STYLE OK
 submit button	OK
 
 
-responsive footer en FILTERS OK
+responsive footer en FILTERS
 
 responsive footer en contact OK
 
