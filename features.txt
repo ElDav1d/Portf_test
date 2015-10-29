@@ -1,6 +1,10 @@
 interchange en index	 
 
 error messages (abide)
+abide DEBUG
+abide STYLING
+
+
 datetimepicker conviviendo con chocolat OK
 datetimepicker ANIMADO
 
