@@ -272,7 +272,7 @@ footer > div > div > ul.button-group > li > a:focus{
   ========================================
 */
 
-@media only screen and (min-width: 639px) {
+
 .left-field {
   padding-right: 2.5%;
 }
@@ -280,7 +280,35 @@ footer > div > div > ul.button-group > li > a:focus{
 .right-field {
   padding-left: 2.5%;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 359px){
+.reset-padding.left-field,
+.reset-padding.right-field {
+    padding: 0 4.65% ;
 }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 479px){
+.reset-padding.left-field,
+.reset-padding.right-field {
+    padding: 0 4.17% ;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 639px){
+.reset-padding.left-field,
+.reset-padding.right-field {
+    padding: 0 3.13% ;
+}
+}
+
+@media only screen and (min-width: 630px) and (max-width: 767px){
+.reset-padding.left-field,
+.reset-padding.right-field {
+    padding: 0 2.2% ;
+}
+}
+
 
 
 #map {
@@ -344,11 +372,16 @@ label {
 
 #submit.button,
 #reset.button {
-  background-color: #428BCA;
+  background-color: #42BBCA;
   color: #fff;
   line-height: 0.8rem;
 
-  
+}
+
+#reset.button {
+
+  margin-top: 0.4rem;
+  background-color: #428BCA;
 }
 
 .align_bottom {
