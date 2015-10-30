@@ -305,7 +305,7 @@ footer > div > div > ul.button-group > li > a:focus{
 @media only screen and (min-width: 630px) and (max-width: 767px){
 .reset-padding.left-field,
 .reset-padding.right-field {
-    padding: 0 2.2% ;
+    padding: 0 2.29% ;
 }
 }
 
@@ -662,6 +662,23 @@ body > section > div:nth-child(2) > form > div:nth-child(6) > div > div > a{
   margin: 0 0 5px;
   border-bottom: 1px solid #e5e5e5;
 }
+
+/* Error Handling */
+[data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
+
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 100;
+  margin-bottom: 0.3rem;
+  margin-top: 5px;
+  padding: 0.15rem 0.5rem;
+  background: #C66D6A;
+  color: #FFFFFF;
+  letter-spacing: 0.0075rem; }
+
+.error label,
+.error label.error {
+  color: #C66D6A; }
 
 /*
   ========================================
