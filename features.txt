@@ -2,7 +2,7 @@ interchange en index
 
 error messages (abide) OK
 abide DEBUG
-abide STYLING
+abide STYLING OK
 
 
 datetimepicker conviviendo con chocolat OK

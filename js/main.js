@@ -43,6 +43,8 @@ $('select').dropdown({
 
 })
 
+$("ul.tags").tagfiltering();
+
 
 
 var map = L.map('map').setView([39.464741, -0.375517],15);
