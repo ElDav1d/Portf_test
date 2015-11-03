@@ -43,7 +43,7 @@ $('select').dropdown({
 
 })
 
-$("ul.tags").tagfiltering();
+
 
 
 
@@ -55,4 +55,5 @@ var Esri_WorldGrayCanvas = L.tileLayer('http://server.arcgisonline.com/ArcGIS/re
 }).addTo(map);
 
 var marker = L.marker([39.464741, -0.375517]).addTo(map);
+
 
