@@ -12,7 +12,9 @@
 	  <link rel="stylesheet" href="Chocolat-0.4.10/src/css/chocolat.css"/>
 	  <link rel="stylesheet" href="css/leaflet.css"/>
 	  <link rel="stylesheet" href="css/jquery.datetimepicker.css"/>
-	  
+
+	  <link rel="stylesheet" href="css/portfolio.css"/>
+
 	  <link rel="stylesheet" href="css/style.css"/>
 
 	  <script src="js/vendor/modernizr.js"></script>
@@ -67,15 +69,15 @@
 
 		<section class="row" id="Portfolio">
 
-			<div class="large-12 columns">
+			<div class="large-12 columns boundingBox" id="content">
 
-				<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4 filter-items">
+				<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4 portfolio list">
 
 
 					<!-- testing filter -->
 
 
-					<li class="chocolat-parent" data-tags="graphic-design,t-shirt">
+					<li class="chocolat-parent graphic-design t-shirt">
 
 						<div class="thumb-container">
 
@@ -98,10 +100,10 @@
 							<div class="thumb-tag">
 
 
-								<ul class="button-group tags">
-									<li data-tag="graphic-design"><a href="#">graphic design</a></li>
+								<ul class="button-group portfolio-filter">
+									<li><a href="#graphic-design" rel="graphic-design">graphic design</a></li>
 									, 
-									<li data-tag="t-shirt"><a href="#">t-shirt</a></li>
+									<li><a href="#t-shirt" rel="t-shirt">t-shirt</a></li>
 								</ul>
 
 
@@ -111,7 +113,7 @@
 
 					</li>		
 
-					<li class="chocolat-parent" data-tags="graphic-design,t-shirt">
+					<li class="chocolat-parent graphic-design t-shirt">
 
 						<div class="thumb-container">
 
@@ -133,11 +135,10 @@
 
 							<div class="thumb-tag">
 
-
-								<ul class="button-group tags">
-									<li data-tag="graphic-design"><a href="#">graphic design</a></li>
+								<ul class="button-group portfolio-filter">
+									<li><a href="#graphic-design" rel="graphic-design">graphic design</a></li>
 									, 
-									<li data-tag="t-shirt"><a href="#">t-shirt</a></li>
+									<li><a href="#t-shirt" rel="t-shirt">t-shirt</a></li>
 								</ul>
 
 
@@ -147,7 +148,7 @@
 
 					</li>
 
-					<li class="chocolat-parent" data-tags="graphic-design,illustration,poster">
+					<li class="chocolat-parent graphic-design illustration poster">
 
 						<div class="thumb-container">
 
@@ -171,12 +172,15 @@
 							<div class="thumb-tag">
 
 
-								<ul class="button-group tags">
-									<li data-tag="graphic-design"><a href="#">graphic design</a></li>
+								<ul class="button-group portfolio-filter">
+
+									<li><a href="#graphic-design" rel="graphic-design">graphic design</a></li>
 									, 
-									<li data-tag="illustration"><a href="#">illustration</a></li>
+									<li><a href="#illustration" rel="illustration">illustration</a></li>
 									, 
-									<li data-tag="poster"><a href="#">poster</a></li>
+									<li><a href="#poster" rel="poster">poster</a></li>
+
+						
 								</ul>
 
 
@@ -189,8 +193,7 @@
 					</li>
 
 
-
-					<li class="chocolat-parent" data-tags="graphic-design,illustration,poster"> 
+					<li class="chocolat-parent graphic-design illustration poster">
 
 						<div class="thumb-container">
 
@@ -208,12 +211,15 @@
 
 							<div class="thumb-tag">
 
-								<ul class="button-group tags">
-									<li data-tag="graphic-design"><a href="#">graphic design</a></li>
+								<ul class="button-group portfolio-filter">
+
+									<li><a href="#graphic-design" rel="graphic-design">graphic design</a></li>
 									, 
-									<li data-tag="illustration"><a href="#">illustration</a></li>
+									<li><a href="#illustration" rel="illustration">illustration</a></li>
 									, 
-									<li data-tag="poster"><a href="#">poster</a></li>
+									<li><a href="#poster" rel="poster">poster</a></li>
+
+								
 								</ul>
 
 							</div>
@@ -962,6 +968,7 @@
 		<script src="js/foundation.min.js"></script>
 		<script src="js/vendor/fastclick.js"></script>
 		<script src="js/leaflet.js"></script>
+		<script src="js/filterable.pack.js" type="text/javascript" charset="utf-8"></script>
 		<script src="Chocolat-0.4.10/src/js/jquery.chocolat.js"></script>
 
 

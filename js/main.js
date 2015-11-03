@@ -43,7 +43,18 @@ $('select').dropdown({
 
 })
 
-
+$(document).ready(function(){
+  $('portfolio-list').filterable({
+    useHash: true,
+    animationSpeed: 1000,
+    show: { width: 'show', opacity: 'show' },
+    hide: { width: 'hide', opacity: 'hide' },
+    useTags: true,
+    tagSelector: '#portfolio-filter a',
+    selectedTagClass: 'current',
+    allTag: 'all'
+  });
+});
 
 
 
