@@ -7,8 +7,8 @@ $(document).foundation();
 $(document).ready(function(){
  
  $('.chocolat-parent').Chocolat({
- 	imageSize : "cover"
- 	});
+  imageSize : "cover"
+  });
  });
 
 
@@ -43,28 +43,13 @@ $('select').dropdown({
 
 })
 
-$(document).ready(function(){
-  $('portfolio-list').filterable({
-    useHash: true,
-    animationSpeed: 1000,
-    show: { width: 'show', opacity: 'show' },
-    hide: { width: 'hide', opacity: 'hide' },
-    useTags: true,
-    tagSelector: '#portfolio-filter a',
-    selectedTagClass: 'current',
-    allTag: 'all'
-  });
-});
-
 
 
 var map = L.map('map').setView([39.464741, -0.375517],15);
 
 var Esri_WorldGrayCanvas = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
-	maxZoom: 25
+  attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+  maxZoom: 25
 }).addTo(map);
 
 var marker = L.marker([39.464741, -0.375517]).addTo(map);
-
-
