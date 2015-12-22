@@ -19,7 +19,7 @@ submit button	OK
 
 responsive footer en FILTERS
 
-responsive footer en contact OK
+responsive footer en contact
 
 vincular contact a spreadsheet
 
@@ -38,7 +38,9 @@ filtros para portfolio	CREAR	OK
 	
 filtros para portfolio	MARKUP	OK
 
-filtros para portfolio	LINKS
+filtros para portfolio	LINKS	OK
+
+filtros para portfolio JQUERY
 
 más MARGIN-BOTTOM  a social links OK
 
