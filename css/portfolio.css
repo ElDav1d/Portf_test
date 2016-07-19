@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* @override http://newmediacampaigns.com/css/compiled.css */
 
 /* Eric Meyer Reset */
@@ -35,6 +36,12 @@ border: none;
 .boundingBox {
 margin: 0 auto;
 width: 916px;
+=======
+
+/* Layout */
+.boundingBox {
+
+>>>>>>> parent of e9e30d3... Clean Filterable Portfolio
 }
 /* Content */
 
