@@ -54,3 +54,35 @@ var Esri_WorldGrayCanvas = L.tileLayer('http://server.arcgisonline.com/ArcGIS/re
 
 var marker = L.marker([39.464741, -0.375517]).addTo(map);
 
+/*-----------ISOTOPE INIT-------------*/
+
+  function isotopeInit() {
+    var $container = $('#folio-container');
+    // init
+    $container.isotope({
+    // options
+    itemSelector: '.folio-item',
+    animationOptions: {
+        duration: 750,
+        easing: 'linear',
+        queue: false
+      },
+    });
+    
+    
+    
+    // filter items when filter link is clicked
+    jQuery('#filters a').click(function(){
+      var selector = $(this).attr('data-filter');
+      $container.isotope({ filter: selector });
+      return false;
+    });
+    
+    jQuery('#filters li a').click(function(){
+      
+      jQuery('#filters li').removeClass('current');
+      jQuery(this).parent().addClass('current');
+    });
+  }
+  
+  isotopeInit();
