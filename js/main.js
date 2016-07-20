@@ -72,7 +72,7 @@ var marker = L.marker([39.464741, -0.375517]).addTo(map);
     
     
     // filter items when filter link is clicked
-    jQuery('#filters a').click(function(){
+    jQuery('#filters li div div a').click(function(){
       var selector = $(this).attr('data-filter');
       $container.isotope({ filter: selector });
       return false;
