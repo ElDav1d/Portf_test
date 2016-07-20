@@ -43,23 +43,6 @@ $('select').dropdown({
 
 })
 
-$(document).ready(function(){
-  $('portfolio-list').filterable({
-    useHash: true,
-    animationSpeed: 1000,
-    show: { width: 'show', opacity: 'show' },
-    hide: { width: 'hide', opacity: 'hide' },
-    useTags: true,
-    tagSelector: '#portfolio-filter a',
-    selectedTagClass: 'current',
-    allTag: 'all'
-  });
-});
-
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of e9e30d3... Clean Filterable Portfolio
 
 
 var map = L.map('map').setView([39.464741, -0.375517],15);
@@ -70,5 +53,4 @@ var Esri_WorldGrayCanvas = L.tileLayer('http://server.arcgisonline.com/ArcGIS/re
 }).addTo(map);
 
 var marker = L.marker([39.464741, -0.375517]).addTo(map);
-
 
