@@ -72,7 +72,7 @@ var marker = L.marker([39.464741, -0.375517]).addTo(map);
     
     
     // filter items when filter link is clicked
-    jQuery('#filters li div div a').click(function(){
+    jQuery('#filters a').click(function(){
       var selector = $(this).attr('data-filter');
       $container.isotope({ filter: selector });
       return false;
@@ -86,3 +86,25 @@ var marker = L.marker([39.464741, -0.375517]).addTo(map);
   }
   
   isotopeInit();
+  
+
+  // Portfolio window
+    /*jQuery('.folio-desc a').click(function() {
+      var target_portfolio = jQuery(this).attr('href');
+      $.ajax({
+        url: target_portfolio,
+        success: function(data) {
+          jQuery("#folio-content").html(data);
+          jQuery('#load-folio').fadeIn(400);
+          var top_window = jQuery(document).scrollTop() + 20;
+          jQuery('#folio-content').css('top',top_window);
+          jQuery('#folio-content').css('display', 'block');     
+        }
+      });
+      return false;
+    });
+    
+    jQuery('.portfolio-close').live('click', function() {
+      jQuery('#window').html('');
+      jQuery('#bg-fade').css('display','none');
+    });*/
