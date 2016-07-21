@@ -4,6 +4,37 @@ $(document).foundation();
 
 
 
+$(function () {
+  
+  var filterList = {
+  
+    init: function () {
+    
+      // MixItUp plugin
+      // http://mixitup.io
+      $('#portfoliolist').mixItUp({
+        selectors: {
+          target: '.portfolio',
+          filter: '.filter' 
+        },
+      
+      });               
+    
+    }
+
+  };
+  
+  // Run the show!
+  filterList.init();
+  
+  
+}); 
+
+
+
+
+
+
 $(document).ready(function(){
  
  $('.chocolat-parent').Chocolat({
@@ -58,59 +89,3 @@ var marker = L.marker([39.464741, -0.375517]).addTo(map);
 
 
 
-
-$(function () {
-  
-  var filterList = {
-  
-    init: function () {
-    
-      // MixItUp plugin
-      // http://mixitup.io
-      $('#portfoliolist').mixItUp({
-        selectors: {
-          target: '.portfolio',
-          filter: '.filter' 
-        },
-        load: {
-          filter: '.app'  
-        }     
-      });               
-    
-    }
-
-  };
-  
-  // Run the show!
-  filterList.init();
-  
-  
-}); 
-
-
-$(function () {
-    
-  var filterList = {
-  
-    init: function () {
-    
-      // MixItUp plugin
-      // http://mixitup.io
-      $('#portfoliolist').mixItUp({
-        selectors: {
-          target: '.portfolio',
-          filter: '.filter' 
-        },
-        load: {
-          filter: '.app' // show app tab on first load
-        }     
-      });               
-    
-    }
-
-  };
-  
-  // Run the show!
-  filterList.init();
-  
-}); 
