@@ -802,7 +802,8 @@ z-index: 2;
     float:left;
   }
   
-  #filters li span {
+  #filters li span,
+ {
     display: block;
     padding:5px 20px;   
     text-decoration:none;
@@ -814,8 +815,8 @@ z-index: 2;
     background: #e95a44;
     color:#fff;
   }
- 
 
+ 
  
 #portfoliolist .portfolio {
   -webkit-box-sizing: border-box;
@@ -885,33 +886,16 @@ z-index: 2;
 
 
 
-/* #Clearing */
 
-/* Self Clearing Goodness */
-.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
-.clearfix:before,
-.clearfix:after,
-.row:before,
-.row:after {
-  content: '\0020';
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0; }
-.row:after,
-.clearfix:after {
-  clear: both; }
-.row,
-.clearfix {
-  zoom: 1; }
+div span.filter {
 
-.clear {
-  clear: both;
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
+ cursor: pointer;
 }
+
+
+#filters span{
+
+  text-align: center;
+}
+
