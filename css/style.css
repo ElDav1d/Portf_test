@@ -154,8 +154,8 @@ a.chocolat-image p{
   margin: 0.5rem 0 0.1rem 0;
   color: #292929;
   font-family: inherit;
-  font-size: 0.8rem !important;
-  font-weight: 900 !important;  
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;  
 }
 
 a.chocolat-image p:hover {
@@ -163,6 +163,61 @@ a.chocolat-image p:hover {
 
 
 }
+
+/*
+  ========================================
+  mixitup
+  ========================================
+*/
+
+
+
+
+.container { 
+  position: relative; 
+  width: 960px; 
+  margin: 0 auto; 
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;  
+}
+ 
+
+
+#filters li span,
+{
+  display: block;
+  padding:5px 20px;   
+  text-decoration:none;
+  color:#666;
+  cursor: pointer;
+}
+
+#filters li span.active {
+  background: #e95a44;
+  color:#fff;
+}
+
+ 
+ 
+#portfoliolist .portfolio {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  display:none;
+  float:left;
+  overflow:hidden;
+}
+
+
+
+.portfolio img {
+
+  -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);   
+}
+
 
 
 
@@ -741,59 +796,6 @@ z-index: 2;
   */
 
 
-/*
-  ========================================
-  mixitup
-  ========================================
-*/
-
-
-
-
-.container { 
-  position: relative; 
-  width: 960px; 
-  margin: 0 auto; 
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;  
-}
- 
-
-
-#filters li span,
-{
-  display: block;
-  padding:5px 20px;   
-  text-decoration:none;
-  color:#666;
-  cursor: pointer;
-}
-
-#filters li span.active {
-  background: #e95a44;
-  color:#fff;
-}
-
- 
- 
-#portfoliolist .portfolio {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  display:none;
-  float:left;
-  overflow:hidden;
-}
-
-
-
-.portfolio img {
-
-  -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);   
-}
 
 
 
