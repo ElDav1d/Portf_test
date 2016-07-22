@@ -748,38 +748,6 @@ z-index: 2;
 */
 
 
-#info {
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-  border-radius:5px;        
-  background:#fcf8e3;
-  border:1px solid  #fbeed5;
-  width:95%;
-  max-width:900px;
-  margin:0 auto 40px auto;
-  font-family:arial;
-  font-size:12px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-}
-
-  #info .info-wrapper {
-    padding:10px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-
-  }
-  
-  #info a {
-    color:#c09853;
-    text-decoration:none;
-  }
-  
-  #info p {
-    margin:5px 0 0 0;
-  }
 
 
 .container { 
