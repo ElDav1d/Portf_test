@@ -155,7 +155,7 @@ a.chocolat-image p{
   color: #292929;
   font-family: inherit;
   font-size: 1.1rem !important;
-  font-weight: 500 !important;  
+  font-weight: 600 !important;  
 }
 
 a.chocolat-image p:hover {
@@ -169,9 +169,16 @@ a.chocolat-image p:hover {
   mixitup
   ========================================
 */
+div span.filter, 
+div h2.filter{
 
+ cursor: pointer;
+}
 
-
+div h2.filter{
+  display:inline;
+  font-size: 1rem;
+}
 
 .container { 
   position: relative; 
@@ -841,10 +848,7 @@ z-index: 2;
 }
 
 
-div span.filter {
 
- cursor: pointer;
-}
 
 
 
