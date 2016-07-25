@@ -152,11 +152,12 @@ img.project_thumbs {
 }
 
 a.chocolat-image p{
-  margin: 0.5rem 0 0.1rem 0;
+  margin: 0.5rem 0 0 0;
   color: #292929;
   font-family: inherit;
-  font-size: 1.1rem !important;
-  font-weight: 600 !important;  
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  line-height: 1.3rem;
 }
 
 a.chocolat-image p:hover {
@@ -170,6 +171,13 @@ a.chocolat-image p:hover {
   mixitup
   ========================================
 */
+
+section#Portfolio.row { 
+    max-width: 69rem;
+
+}
+
+
 div span.filter, 
 div h2.filter{
 
