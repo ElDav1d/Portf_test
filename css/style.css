@@ -326,10 +326,10 @@ footer > div > div > ul.button-group > li > a:focus{
 */
 
 .social-icon {
-  max-height: 1.25rem;
+  max-height: 2rem;
   max-width: auto;
   display: inline-block;
-  margin: 0rem 0.2rem 1rem 0.2rem ; 
+  margin: 0rem 0.4rem 1rem 0.4rem ; 
 }
 
 .social-container {
