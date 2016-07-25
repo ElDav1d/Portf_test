@@ -175,13 +175,17 @@ a.chocolat-image p:hover {
   ========================================
 */
 
+div p.filter {
+
+  text-align: center;
+}
 section#Portfolio.row { 
     max-width: 69rem;
 
 }
 
 
-div span.filter, 
+div p.filter, 
 div h2.filter{
 
  cursor: pointer;
@@ -211,7 +215,7 @@ div h2.filter:hover{
  
 
 
-#filters li span,
+#filters li p,
 {
   display: block;
   padding:5px 20px;   
@@ -220,7 +224,7 @@ div h2.filter:hover{
   cursor: pointer;
 }
 
-#filters li span.active {
+#filters li p.active {
   background: #e95a44;
   color:#fff;
 }
