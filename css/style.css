@@ -73,7 +73,8 @@ body {
   
 }
 
-#title h1 {
+#title h1,
+#title p {
 	text-align: center;
 	color: #C8C8C8;
   margin-bottom: 0.25rem;
