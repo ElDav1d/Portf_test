@@ -76,12 +76,18 @@ body {
 #title h1,
 #title p {
 	text-align: center;
-	color: #C8C8C8;
-  margin-bottom: 0.25rem;
-
+	color: #666;
+  margin: 0.5rem 0 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 300;
 
 }
 
+#title p {
+
+margin: 0 0 0.5rem 0;
+
+}
 
 
 h1 {
@@ -183,7 +189,7 @@ div p.filter {
 
 div p.filter:hover {
 
-  color:#666;
+  color: #C8C8C8;
   font-weight: 400;
 }
 
@@ -280,12 +286,12 @@ footer > div > div > ul {
 #menu > div > div > ul > li> a, 
 footer > div > div > ul.button-group > li > a{
   font-family: inherit;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   font-weight: 300;
   color: #292929;
   padding: 0.05rem 0.75rem 0.5rem 0.75rem;
   background-color: #fff;
-  border-color: #fff;
+  border-color: none;
 }
 
 footer > div > div > ul.button-group > li > a{
@@ -298,6 +304,12 @@ footer > div > div > ul.button-group > li > a{
   }
 }
 
+#menu > div > div > ul > li> a:hover, 
+footer > div > div > ul.button-group > li > a:hover{
+
+  font-weight: 400;
+  color: #C8C8C8;
+}
 
 #menu > div > div > ul > li> a {
   margin:  0 !important;
@@ -329,7 +341,7 @@ footer > div > div > ul.button-group > li > a:focus{
   max-height: 2rem;
   max-width: auto;
   display: inline-block;
-  margin: 0rem 0.4rem 1rem 0.4rem ; 
+  margin: 0rem 0.4rem; 
 }
 
 .social-container {
@@ -337,7 +349,7 @@ footer > div > div > ul.button-group > li > a:focus{
 }
 
 .first.social-container {
-  margin-bottom: 1rem;
+  margin: 0.5rem 0 2rem 0;
 }
 
 /*
