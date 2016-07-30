@@ -175,6 +175,13 @@ a.chocolat-image p:hover {
 
 }
 
+span.chocolat-description {
+
+  font-size: 0.85rem;
+  letter-spacing: 0.05rem;
+  font-weight: 300;
+}
+
 /*
   ========================================
   mixitup
