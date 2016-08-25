@@ -76,7 +76,7 @@ $('select').dropdown({
 
 
 
-var map = L.map('map').setView([39.469908, -0.376288],5);
+var map = L.map('map').setView([39.470150, -0.376282],5);
 
 var Esri_WorldGrayCanvas = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
 	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
