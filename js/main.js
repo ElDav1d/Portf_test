@@ -63,16 +63,6 @@ $(function() {
   });
 });
 
-$('select').dropdown({
-
-  animate: true,
-  speed: 300,
-  autoClose: true,
-  autoToggle: true,
-  autoTitle: true,
-  autoResize: 300
-
-})
 
 
 
